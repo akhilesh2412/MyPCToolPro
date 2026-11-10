@@ -1,0 +1,20 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+dist/
+*.pdb
+
+# Installer binaries (built files are attached to GitHub Releases, not committed)
+installer/*.exe
+!installer/.keep
+
+# .NET / VS
+*.user
+*.suo
+.vs/
+TestResults/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
